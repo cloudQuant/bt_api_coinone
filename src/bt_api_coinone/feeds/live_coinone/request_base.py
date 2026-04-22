@@ -17,11 +17,12 @@ import uuid
 from typing import Any
 from urllib.parse import urlencode
 
-from bt_api_coinone.containers.exchanges.coinone_exchange_data import CoinoneExchangeDataSpot
 from bt_api_base.containers.requestdatas.request_data import RequestData
 from bt_api_base.feeds.capability import Capability
 from bt_api_base.feeds.feed import Feed
 from bt_api_base.logging_factory import get_logger
+
+from bt_api_coinone.containers.exchanges.coinone_exchange_data import CoinoneExchangeDataSpot
 
 
 class CoinoneRequestData(Feed):
